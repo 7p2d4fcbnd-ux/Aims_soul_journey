@@ -1,0 +1,81 @@
+{
+  "name": "神性之旅 AIMS - 靈性卡片抽取應用",
+  "short_name": "神性之旅",
+  "description": "每日靈性指引，透過 AIMS 四階段探索您的靈魂成長之旅",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a0a1a",
+  "theme_color": "#4A90E2",
+  "icons": [
+    {
+      "src": "/assets/images/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/images/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/images/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/images/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["lifestyle", "wellness"],
+  "screenshots": [
+    {
+      "src": "/assets/images/splash-icon.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/assets/images/splash-icon.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "抽卡",
+      "short_name": "抽卡",
+      "description": "開始今日靈性卡片抽取",
+      "url": "/?tab=index",
+      "icons": [
+        {
+          "src": "/assets/images/icon.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "我的記錄",
+      "short_name": "記錄",
+      "description": "查看心情記錄歷史",
+      "url": "/?tab=history",
+      "icons": [
+        {
+          "src": "/assets/images/icon.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
